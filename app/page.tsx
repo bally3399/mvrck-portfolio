@@ -173,11 +173,8 @@ export default function Portfolio() {
         {/* Main Content */}
         <main className="main">
           <div className="container">
-            {/* Hero Section */}
             <div id="home" className="hero-section">
-              {/* Left Column */}
               <div className="hero-content">
-                {/* Main Heading */}
                 <div className="hero-text">
                   <h2 className="hero-title">
                     Blockchain/Smart Contract
