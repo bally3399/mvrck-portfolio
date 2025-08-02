@@ -145,32 +145,10 @@ export default function Portfolio() {
 
   return (
       <div className="min-h-screen bg-black text-white">
-        {/* Header */}
         <header className="header">
-          <h1 className="logo">Mvrck.</h1>
-          {/*<a href="/BimsCv.pdf" target="_blank" rel="noopener noreferrer" className="cv-button">*/}
-          {/*  View CV*/}
-          {/*  <svg*/}
-          {/*    className="w-4 h-4"*/}
-          {/*    xmlns="http://www.w3.org/2000/svg"*/}
-          {/*    width="24"*/}
-          {/*    height="24"*/}
-          {/*    viewBox="0 0 24 24"*/}
-          {/*    fill="none"*/}
-          {/*  >*/}
-          {/*    <path*/}
-          {/*      d="M15.25 22.7502H9.25C3.82 22.7502 1.5 20.4302 1.5 15.0002V9.00024C1.5 3.57024 3.82 1.25024 9.25 1.25024H14.25C14.66 1.25024 15 1.59024 15 2.00024C15 2.41024 14.66 2.75024 14.25 2.75024H9.25C4.64 2.75024 3 4.39024 3 9.00024V15.0002C3 19.6102 4.64 21.2502 9.25 21.2502H15.25C19.86 21.2502 21.5 19.6102 21.5 15.0002V10.0002C21.5 9.59024 21.84 9.25024 22.25 9.25024C22.66 9.25024 23 9.59024 23 10.0002V15.0002C23 20.4302 20.68 22.7502 15.25 22.7502Z"*/}
-          {/*      fill="currentColor"*/}
-          {/*    />*/}
-          {/*    <path*/}
-          {/*      d="M22.25 10.7502H18.25C14.83 10.7502 13.5 9.42023 13.5 6.00023V2.00023C13.5 1.70023 13.68 1.42023 13.96 1.31023C14.24 1.19023 14.56 1.26023 14.78 1.47023L22.78 9.47023C22.99 9.68023 23.06 10.0102 22.94 10.2902C22.82 10.5702 22.55 10.7502 22.25 10.7502ZM15 3.81023V6.00023C15 8.58023 15.67 9.25023 18.25 9.25023H20.44L15 3.81023Z"*/}
-          {/*      fill="currentColor"*/}
-          {/*    />*/}
-          {/*  </svg>*/}
-          {/*</a>*/}
+          <h1 className="logo">Mvrck</h1>
         </header>
 
-        {/* Main Content */}
         <main className="main">
           <div className="container">
             <div id="home" className="hero-section">
@@ -189,7 +167,6 @@ export default function Portfolio() {
                   </p>
                 </div>
 
-                {/* Two Column Description */}
                 <div className="hero-stats">
                   <div>
                     <p className="stat-text">
@@ -206,7 +183,6 @@ export default function Portfolio() {
                 </div>
               </div>
 
-              {/* Right Column - Profile Image */}
               <div className="hero-image">
                 <div className="profile-image">
                   <Image
@@ -221,7 +197,6 @@ export default function Portfolio() {
               </div>
             </div>
 
-            {/* Project Categories */}
             <section className="categories-section">
               <div className="categories-container">
                 <h2 className="categories-title">Project Categories</h2>
@@ -238,9 +213,7 @@ export default function Portfolio() {
               </div>
             </section>
 
-            {/* Bottom Sections */}
             <div className="bottom-sections">
-              {/* Development Section */}
               <div className="section">
                 <h3 className="section-title">Blockchain Development</h3>
                 <p className="section-description">
@@ -252,7 +225,6 @@ export default function Portfolio() {
                 </p>
               </div>
 
-              {/* Engineering Section */}
               <div className="section">
                 <h3 className="section-title">Full-Stack Engineering</h3>
                 <p className="section-description">
@@ -264,7 +236,6 @@ export default function Portfolio() {
               </div>
             </div>
 
-            {/* Skills Section */}
             <section id="skills" className="skills-section">
               <div className="skills-container">
                 <h2 className="skills-title">Skills & Technologies</h2>
@@ -278,7 +249,6 @@ export default function Portfolio() {
               </div>
             </section>
 
-            {/* Projects Section */}
             <section id="projects" className="projects-section">
               <div className="projects-container">
                 <h2 className="projects-title">Featured Projects</h2>
@@ -330,7 +300,7 @@ export default function Portfolio() {
                     and additional Web3 applications available on GitHub
                   </p>
                   <Link
-                      href="https://github.com/bally3399"
+                      href="https://github.com/meshackyaro"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="github-link"
@@ -342,7 +312,6 @@ export default function Portfolio() {
               </div>
             </section>
 
-            {/* Contact Section */}
             <section id="contact" className="contact-section">
               <div className="contact-container">
                 <h2 className="contact-title">Get In Touch</h2>
@@ -351,11 +320,11 @@ export default function Portfolio() {
                   solutions. Let's connect and build the future of decentralized technology together!
                 </p>
                 <div className="contact-buttons">
-                  <a href="mailto:sulaimabaliqis@gmail.com" className="contact-btn primary">
+                  <a href="mailto:yaromeshack@gmail.com" className="contact-btn primary">
                     <Mail className="h-4 w-4" />
                     Write me
                   </a>
-                  <a href="#" className="contact-btn secondary">
+                  <a href="https://www.linkedin.com/in/meshackyaro" className="contact-btn secondary">
                     <Linkedin className="h-4 w-4" />
                     LinkedIn
                   </a>
@@ -365,10 +334,9 @@ export default function Portfolio() {
           </div>
         </main>
 
-        {/* Footer */}
         <footer className="footer">
           <div className="footer-container">
-            <p className="footer-text">© 2024 Baliqis Mosunmola Sulaiman - Blockchain Developer</p>
+            <p className="footer-text">© Meshack Yaro - Blockchain Developer</p>
           </div>
         </footer>
       </div>
