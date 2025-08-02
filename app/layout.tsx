@@ -8,8 +8,7 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "Mvrck - Blockchain/Smart Contract Developer",
   description:
-    "Portfolio of Baliqis Sulaiman Mosunmola - Blockchain/Smart Contract Developer specializing in DeFi, Web3, and decentralized applications",
-    generator: 'v0.dev'
+    "Portfolio of Meshack Yaro - Blockchain/Smart Contract Developer specializing in DeFi, Web3, and decentralized applications",
 }
 
 export default function RootLayout({
