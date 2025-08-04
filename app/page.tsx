@@ -40,14 +40,10 @@ export default function Portfolio() {
     "JavaScript",
     "TypeScript",
     "React",
-    "Next.js",
     "Java",
     "Spring Boot",
-    "Python",
-    "Django",
     "HTML/CSS",
     "Tailwind CSS",
-    "Material UI",
     "Git",
     "MongoDB",
     "MySQL",
@@ -56,7 +52,6 @@ export default function Portfolio() {
     "Blockchain",
     "Ethereum",
     "Hardhat",
-    "Truffle",
   ]
 
   const featuredProjects = [
