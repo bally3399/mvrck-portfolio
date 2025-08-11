@@ -106,11 +106,21 @@ export default function Portfolio() {
       category: "Full-Stack",
     },
     {
-      title: "Event Booking System",
+      title: "Quiz App",
       description:
-          "A robust backend system for event booking and management built with Spring Boot, featuring comprehensive event management capabilities.",
-      technologies: ["Java", "Spring Boot", "MySQL", "REST APIs"],
-      github: "https://github.com/bally3399/EventBookingApp.git",
+          "A robust backend system for QUiz Application built with Spring Boot, featuring comprehensive quiz.",
+      technologies: ["Java", "Spring Boot", "PostgreSQL", "REST APIs"],
+      github: "https://github.com/meshackyaro/quiz-app.git",
+      live: "#",
+      image: "/project.png",
+      category: "Backend",
+    },
+    {
+      title: "Media Streaming App",
+      description:
+          "A robust backend system for Media Streaming App built with Spring Boot.",
+      technologies: ["Java", "Spring Boot", "PostgreSQL", "REST APIs"],
+      github: "https://github.com/meshackyaro/media-streaming-app.git",
       live: "#",
       image: "/project.png",
       category: "Backend",
